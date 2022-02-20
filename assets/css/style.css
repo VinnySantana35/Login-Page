@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  color: #f54925;
+  margin-bottom: 30px;
+}
+h3 {
+  color: #e62b06;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+h5 {
+  color: #c4c4c4;
+  margin-top: -25px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffeeec;
+  flex-direction: column;
+}
+
+.card {
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card:hover{
+  border: 2px solid #1E90FF ;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card form input {
+  width: 270px;
+  border-radius: 8px;
+  margin: 8px;
+  height: 35px;
+  border: none;
+  background-color: #fbe9e7;
+  cursor: pointer;
+  padding-left: 15px;
+  outline: none;
+}
+
+form button {
+  border-radius: 8px;
+  background-color: #ff5733;
+  color: white;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+transition: .5s;
+}
+form button:hover{
+  background-color: #791703;
+}
+
+form img {
+  height: 20px;
+  width: 20px;
+}
+
+.down {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customH {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.customH a {
+  color: #fea895;
+  margin-left: 5px;
+}
+
+.down {
+  display: flex;
+  justify-content: space-around;
+}
+
+.down h5 {
+  color: #686060;
+}
+
+.Divinput {
+  width: 300px;
+  height: 40px;
+  background-color: #fbe9e7;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Divinput img {
+  margin-left: 15px;
+}
+
+.Divinput:hover {
+  border: 2px solid #f54925;
+}
